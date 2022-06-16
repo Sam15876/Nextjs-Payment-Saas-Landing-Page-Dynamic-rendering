@@ -12,21 +12,6 @@ export function getMetrics() {
     })
 }
 
-export function getFeatures() {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            const data = [
-                { title: 'Send Money', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui id lobortis pretium blandit.' },
-                { title: 'Money Reqyest', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui id lobortis pretium blandit.' },
-                { title: 'Pay Bill', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui id lobortis pretium blandit.' },
-                { title: 'Mobile Recharge', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui id lobortis pretium blandit.' }
-            ]
-
-            resolve(data)
-        }, 2000)
-    })
-}
-
 export function getAboutStats() {
     return new Promise(resolve => {
         setTimeout(() => {
