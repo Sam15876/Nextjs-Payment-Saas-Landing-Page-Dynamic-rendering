@@ -13,7 +13,7 @@ export default function NavigationBar() {
             <div className='basis-1/2 flex justify-around items-center '>
                 <Image src={logo} width={'64'} />
                 <Link href='/home'><a>Home</a></Link>
-                <Link href='/features'><a>Features</a></Link>
+                <Link href='/feature/1'><a>Feature</a></Link>
                 <Link href='/about'><a>About Pay</a></Link>
                 <Link href='/howItWorks'><a>How it works</a></Link>
             </div>
