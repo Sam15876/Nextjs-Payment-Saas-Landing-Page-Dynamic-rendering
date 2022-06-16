@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
     const featureId = context?.params?.featureId
-    const response = await fetch(`http://localhost:3000/api/feature/${featureId}`)
+    const response = await fetch(`${process.env.BASE_URL}/api/feature/${featureId}`)
     const feature = await response.json()
 
     return {
